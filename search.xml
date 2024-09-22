@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>使用GPT的作文修改流程</title>
+    <url>/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<p>（本文为借用大模型进行对作文修改的一些方法，仅供参考</p>
+<h2 id="重要提醒："><a href="#重要提醒：" class="headerlink" title="重要提醒："></a><strong>重要提醒：</strong></h2><p>！！！在使用AI修改之前，请确保你对英语作文的写作和结构有基本的认识。AI只是作为修改工具，你应该先自行完成作文草稿，然后再用GPT进行修改。这样可以确保修改的方向与你的思路一致（同时也能提高AI的识别准确率）。</p>
+<p>不要盲目听信AI。如果你觉得自己的作文有亮点被修改了，请询问GPT为什么进行了修改，如果你认为修改不妥，可以改回来。毕竟这是你的作文，而不是GPT的。</p>
+<p>不要完全依赖AI的修改建议，如果你认为某些修改不符合您的意愿或风格，可以自行调整。要记住，虽然大型语言模型可以提供有价值的建议，但最终的决定权在于你自己。</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a><strong>注意事项：</strong></h2><ul>
+<li><p><strong>使用单一窗口进行修改</strong>：在整个修改过程中，请尽量在一个窗口内进行，这样GPT可以记住之前的对话和上下文。如果在修改过程中频繁切换窗口，可能会影响GPT的理解和回答。</p>
+</li>
+<li><p><strong>GPT和批改网的AI有时候会产生矛盾</strong>：这并不重要，重要的是通过修改提升写作水平，取得理想的成绩。</p>
+</li>
+<li><p><strong>英文聊天会更准确</strong>：尽量使用英文进行交流，这样GPT的回答会更加贴合文章。不过，如果更习惯使用中文也可以。</p>
+</li>
+</ul>
+<h2 id="修改流程："><a href="#修改流程：" class="headerlink" title="修改流程："></a>修改流程：</h2><p><strong>（以下是修改流程的具体步骤，仅供参考，具体使用的时候就把对方当成一个人，想问什么问什么，想怎么说怎么说。注意每次修改的时候都要加入自己的想法，不懂的地方就要问，这又不是真人，只有你自己知道跟他说了什么：）</strong></p>
+<ul>
+<li><p><strong>1.发送提示词(直接复制粘贴，<a href="https://github.com/wikieden/awesome-chatgpt-prompts">内容来自Github</a>)</strong>:使用以下提示词来启动GPT，提醒它你需要进行作文修改。提示词：</p>
+<blockquote>
+<p>I want you to act as an AI writing tutor. I will provide you with a student who needs help improving their writing and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback on how they can improve their composition. You should also use your rhetorical knowledge and experience about effective writing techniques in order to suggest ways that the student can better express their thoughts and ideas in written form.</p>
+</blockquote>
+</li>
+<li><p><strong>2.发送作文题目和内容</strong>:将作文题目和内容发送给GPT，让它检查语法和词汇错误，并给出修改建议。</p>
+</li>
+<li><p><strong>3.逐段检查</strong>:逐段发送作文给GPT，让它修正语法、词汇错误，并优化句式和段落结构。在每一段修改后，仔细检查并根据需要调整。</p>
+</li>
+<li><p><strong>4.全文检查：</strong>:当每个段落都修改完毕后，将整篇作文发送给GPT，检查全文的结构和段落间的衔接问题，并进行必要的修改。</p>
+</li>
+<li><p><strong>5.请GPT自行写一篇：</strong>:最后，可以让GPT自己写一篇文章作为参考，当作范文学习。记得在过程中多与GPT进行互动，询问原因或提出更改意见。</p>
+</li>
+</ul>
+<h2 id="其他资料"><a href="#其他资料" class="headerlink" title="其他资料:"></a>其他资料:</h2><p>以下是另外一个详细的教程，供参考：<a href="https://blog.csdn.net/He_r_o/article/details/129050606?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22129050606%22,%22source%22:%22He_r_o%22%7D&fromshare=blogdetail">教程链接</a></p>
+<p>祝你修改顺利！</p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+        <tag>作文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于openwrt路由器及哆点Drcom校园网WEB自动登录</title>
+    <url>/2024/06/03/%E5%85%B3%E4%BA%8Eopenwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%8A%E5%93%86%E7%82%B9Drcom%E6%A0%A1%E5%9B%AD%E7%BD%91WEB%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近买了新华三H3CPro路由器(下文简称”华三”)，我的需求就是千兆、能刷openwrt进行二次开发，WIFI6这些。而华三满足这些，且价格合适，所以就入手了。这里记录一下路由器的一些配置和使用。</p>
+<p><strong>哆点Drcom校园网</strong>认证系统为<strong>广州热点软件科技股份有限公司</strong>研发，若你的校园网登录界面有<strong>本计费系统由广州热点软件科技股份有限公司提供</strong>字样，那么你可以参考这篇文章。</p>
+<p>目前已知使用此系统大学:</p>
+<ul>
+<li>中国矿业大学</li>
+</ul>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>需要：</p>
+<ul>
+<li><p>硬件：新华三H3CPro路由器、两条网线、可插网线的电脑</p>
+<ul>
+<li><ol>
+<li>如果旧路由器工作正常。网线 1 一端连接 旧路由器 的 LAN 口，对端连接 华三 的 WAN 口；网线 2 一端连接 华三 的 LAN 口，对端连接电脑的网口</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>如果旧路由器无法工作。网线 1 一端连接 华三 的 WAN 口，对端连接宽带；网线 2 一端连接 华三 的 LAN 口，对端连接电脑的网口</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>软件：PuTTY（用于SSH连接，目前在尝试VSCode，待我整完发上来）、浏览器(推荐使用Firefox、Chrome、Edge)、TFTP工具（用于刷写固件）</p>
+<ul>
+<li>启用电脑的 Telnet 服务：<br>  在Windows上启用Telnet服务，你可以按照以下步骤操作：<ul>
+<li><ol>
+<li>打开“控制面板”。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>点击“程序”。</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>在“程序和功能”部分点击“打开或关闭Windows功能”。</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>在弹出的窗口中，找到并勾选“Telnet客户端”。</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>点击“确定”按钮。</li>
+</ol>
+</li>
+<li><p>PS：启用Telnet服务后，你可以使用Windows的Telnet客户端连接到路由器。但是，请注意，Telnet协议不安全，所有的内容都是明文传输，包括你的密码。因此，建议只在安全的内部网络中使用Telnet，或者使用更安全的替代品，如SSH。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>待刷写镜像及工具的下载：</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">文件名</th>
+<th align="center">描述</th>
+<th align="center">下载</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">openwrt-*-preloader.bin</td>
+<td align="center">BL2</td>
+<td align="center"><a href="https://firmware-selector.openwrt.org/?target=mediatek/filogic&id=h3c_magic-nx30-pro">页面</a></td>
+</tr>
+<tr>
+<td align="center">openwrt-*-bl31-uboot.fip</td>
+<td align="center">FIP</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">openwrt-*-initramfs-recovery.itb</td>
+<td align="center">initramfs 镜像</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">openwrt-*-squashfs-sysupgrade.itb</td>
+<td align="center">Sysupgrade 镜像</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">Tftpd64-4.64-setup.exe</td>
+<td align="center">TFTP 工具安装包</td>
+<td align="center"><a href="https://bitbucket.org/phjounin/tftpd64/downloads/Tftpd64-4.64-setup.exe">链接</a></td>
+</tr>
+</tbody></table>
+<p>⚠️ 为了避免无线局域网的干扰，可以暂时将电脑的无线网络断开。</p>
+<h1 id="刷openwrt"><a href="#刷openwrt" class="headerlink" title="刷openwrt"></a>刷openwrt</h1><p>到手之后简单看了一下原厂固件。发现并不能满足我校园网自动登录的需求，所以就决定刷openwrt。</p>
+<p>按照<a href="https://ericclose.github.io/install-openwrt-on-h3c_magic-nx30-pro.html">Eric的文章</a>一步一步来，最终成功刷入。</p>
+<p>PS:刷入的时候还是需要网络的，可以留着之前的路由器，然后分出一个lan口插入华三的wan口，这样既可以配置也可以联网。还有就是我没有刷入主题，这部分应该是无关紧要，各位自行判断。</p>
+<h1 id="配置校园网自动登录"><a href="#配置校园网自动登录" class="headerlink" title="配置校园网自动登录"></a>配置校园网自动登录</h1><p>我们的校园网是需要登录的，而openwrt默认并没有这个功能。所以需要自己写一个脚本来实现。</p>
+<h2 id="1-抓取curl登录请求"><a href="#1-抓取curl登录请求" class="headerlink" title="1. 抓取curl登录请求"></a>1. 抓取curl登录请求</h2><p><strong>（这一步我已经帮你干完了，不感兴趣的话可以直接往下划到<a href="#2-%E7%BC%96%E5%86%99%E7%99%BB%E5%BD%95%E8%84%9A%E6%9C%AC">编写登陆脚本</a>）</strong></p>
+<p>首先抓取登录页面的<code>form</code>表单，然后用<code>curl</code>发送<code>post</code>请求，最后检查是否登录成功。</p>
+<p>以Firefox为例</p>
+<ul>
+<li><ol>
+<li>打开Firefox，打开校园网登录界面，按<code>F12</code>打开开发者工具，切换到<code>网络</code>选项卡，然后输入账号密码登陆校园网。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>在<code>网络</code>选项卡中找到<code>login</code>请求</li>
+</ol>
+<ul>
+<li><ol>
+<li>通过 <code>响应</code>找到含有<code>认证成功</code>的内容，回到<code>消息头</code>，右键点击，选择<code>复制</code>，然后选择<code>复制为cURL（bash）</code>。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>筛选<code>消息头</code>，找到含有你的账号密码的内容，并复制。</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-编写登录脚本"><a href="#2-编写登录脚本" class="headerlink" title="2. 编写登录脚本"></a>2. 编写登录脚本</h2><p>首先，我们需要在路由器上安装<code>curl</code>，这个工具是用来发送请求的。<br>用PuTTY连接到路由器，然后输入以下命令安装<code>curl</code>：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">opkg update</span><br><span class="line">opkg install curl</span><br></pre></td></tr></table></figure>
+
+<p>我们需要写一个自动登录的脚本。<br>创建一个文件夹</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir /root/auto_login</span><br><span class="line">cd /root/auto_login</span><br><span class="line">vi login.sh</span><br></pre></td></tr></table></figure>
+
+
+
+<p>然后输入以下内容，注意修改账号密码，请按照实际情况自行测试：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用户账户和密码。</span></span><br><span class="line"><span class="comment">#运营商：学号后面加@CUCC为中国联通，@CMCC为中国移动，@CTCC为中国电信。</span></span><br><span class="line"><span class="comment">#校园网登录只填学号，不填运营商。</span></span><br><span class="line">USER_ACCOUNT = <span class="string">&quot;11230909@CUCC&quot;</span></span><br><span class="line">USER_PASSWORD = <span class="string">&quot;xxxxxx&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送登录请求</span></span><br><span class="line">curl <span class="string">&quot;http://10.2.5.251:801/eportal/?&quot;</span> \</span><br><span class="line">-G \</span><br><span class="line">--data-urlencode <span class="string">&quot;c=Portal&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;a=login&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;login_method=1&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;user_account=<span class="variable">$&#123;USER_ACCOUNT&#125;</span>&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;user_password=<span class="variable">$&#123;USER_PASSWORD&#125;</span>&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;wlan_ac_ip=&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;wlan_ac_name=NAS&quot;</span> \</span><br><span class="line">--data-urlencode <span class="string">&quot;jsVersion=3.0&quot;</span> \</span><br></pre></td></tr></table></figure>
+
+
+<p>接下来给脚本运行权限：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">chmod +x login.sh</span><br></pre></td></tr></table></figure>
+
+<p>然后我们可以先注销，再手动运行一下脚本，看看是否能够成功登录：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./login.sh</span><br></pre></td></tr></table></figure>
+<p>若是出现<code>认证成功</code>及其类似字样，则说明登录成功。</p>
+<p>至此，一个自动登录的脚本就成功了。</p>
+<h2 id="3-开机自启以及断网重联"><a href="#3-开机自启以及断网重联" class="headerlink" title="3. 开机自启以及断网重联"></a>3. 开机自启以及断网重联</h2><p>我们可以将脚本设置为开机自启，以及断网重连。<br>开机自启可以通过<code>/etc/rc.local</code>实现，断网重连可以通过<code>crontab</code>实现。</p>
+<h3 id="1-开机自启"><a href="#1-开机自启" class="headerlink" title="1 开机自启"></a>1 开机自启</h3><p>编辑<code>/etc/rc.local</code>文件：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vi /etc/rc.local</span><br></pre></td></tr></table></figure>
+
+<p>在文件中添加以下内容：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/root/auto_login/login.sh</span><br></pre></td></tr></table></figure>
+
+<p>:wq，保存退出。</p>
+<h3 id="2-断网重连"><a href="#2-断网重连" class="headerlink" title="2 断网重连"></a>2 断网重连</h3><ul>
+<li><ol>
+<li>我们可以通过<code>ping</code>命令来检测网络是否正常，如果网络不正常，我们就执行<code>auto_login.sh</code>脚本。</li>
+</ol>
+<p>  可以直接在登录文件夹下创建一个<code>ping.sh</code>文件：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd /root/auto_login</span><br><span class="line">vi ping.sh</span><br></pre></td></tr></table></figure><br>  然后输入以下内容(带有路由器重启，不过我们学校工作日晚上会断网，所以我设置了十一点到八点断网不重启)：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/bin/sh</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">ping 的总次数</span></span><br><span class="line">PING_SUM=3</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">ping 的间隔时间，单位秒</span></span><br><span class="line">SLEEP_SEC=10</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">时间= (SLEEP_SEC * PING_SUM + 20) * REBOOT_CNT</span></span><br><span class="line">REBOOT_CNT=3</span><br><span class="line">cnt=0</span><br><span class="line">reboot_cnt=1</span><br><span class="line"></span><br><span class="line">while :</span><br><span class="line">do</span><br><span class="line">    ping -c 1 -W 1 www.baidu.com &gt; /dev/null</span><br><span class="line">    ret=$?</span><br><span class="line">    </span><br><span class="line">    ping -c 1 -W 1 www.bilibili.com &gt; /dev/null</span><br><span class="line">    ret2=$?</span><br><span class="line">    </span><br><span class="line">    if [[ $ret -eq 0 || $ret2 -eq 0 ]]</span><br><span class="line">    then</span><br><span class="line">        echo -e &#x27;network is ok\r&#x27;</span><br><span class="line">        exit</span><br><span class="line">    else</span><br><span class="line">        cnt=`expr $cnt + 1`</span><br><span class="line">        printf &#x27;-&gt; [%d/%d] Network maybe disconnected, checking again after %d seconds!\r\n&#x27; $cnt $PING_SUM $SLEEP_SEC </span><br><span class="line">        </span><br><span class="line">        if [ $cnt == $PING_SUM ]</span><br><span class="line">        then</span><br><span class="line">            echo &#x27;try to re curl&#x27;</span><br><span class="line">            echo &#x27;ifup wan!!!&#x27;</span><br><span class="line">            sleep 5</span><br><span class="line">            sh /root/auto_login/login.sh</span><br><span class="line">            </span><br><span class="line">            cnt=0</span><br><span class="line">            # 重连后，等待10秒再进行ping检测</span><br><span class="line">            sleep 10</span><br><span class="line">            reboot_cnt=`expr $reboot_cnt + 1`</span><br><span class="line">            if [ $reboot_cnt == $REBOOT_CNT ]</span><br><span class="line">            then</span><br><span class="line">                current_hour=`date &#x27;+%H&#x27;`</span><br><span class="line">                if [ $current_hour -ge 8 -a $current_hour -lt 23 ]</span><br><span class="line">                then</span><br><span class="line">                    echo &#x27;-&gt; Network has some problem, lets reboot&#x27;</span><br><span class="line">                    echo &#x27;-&gt; =============== reboot!&#x27;</span><br><span class="line">                    reboot</span><br><span class="line">                fi</span><br><span class="line">            fi</span><br><span class="line">        fi</span><br><span class="line">    fi    </span><br><span class="line">    sleep $SLEEP_SEC</span><br><span class="line">done</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><br>  :wq，保存退出。</p>
+<p>  给脚本运行权限：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">chmod +x ping.sh</span><br></pre></td></tr></table></figure></p>
+<p>  然后我们可以先注销，再手动运行一下脚本，看看是否能够成功登录：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./ping.sh</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><ol start="2">
+<li>接下来使用crontab，它是一个用于执行定时任务的工具，我们可以通过它来实现重连。<br>编辑<code>/etc/crontabs/root</code>文件：  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vi /etc/crontabs/root</span><br></pre></td></tr></table></figure>
+  在文件中添加以下内容：  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">*/1 * * * * /root/auto_login/ping.sh</span><br></pre></td></tr></table></figure>
+  这里的<code>*/1 * * * *</code>表示每1分钟执行一次<code>ping.sh</code>脚本，如有需要可以修改。</li>
+</ol>
+<p>  注意：我们需要查看crontab是否已经启动，如果没有启动，我们需要手动启动：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/etc/init.d/cron status</span><br></pre></td></tr></table></figure></p>
+<p>  如果没有启动，我们可以通过以下命令启动：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/etc/init.d/cron start</span><br></pre></td></tr></table></figure></p>
+<p>  同时，我们可以把它添加到开机自启：<br>  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">/etc/init.d/cron enable</span><br></pre></td></tr></table></figure><br>  这样就可以实现断网重连了。</p>
+</li>
+</ul>
+<p>至此，我们就实现了校园网自动登录以及断网重连。🍾🍾🍾</p>
+<h1 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h1><ul>
+<li><a href="https://ericclose.github.io/install-openwrt-on-h3c_magic-nx30-pro.html">华三H3CPro路由器刷openwrt-Eric-个人博客</a></li>
+<li><a href="https://www.cnblogs.com/yeziwinone/p/14522486.html">openwrt实现校园网自动登录-叶子在行动-博客园</a></li>
+<li><a href="https://blog.csdn.net/qq248606117/article/details/125144699">openwrt校园网自动登录且断网重连-in dreaming-CSDN</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>网络</category>
+      </categories>
+      <tags>
+        <tag>路由器</tag>
+        <tag>校园网自动登录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于未来走向</title>
+    <url>/2024/05/12/%E5%85%B3%E4%BA%8E%E6%9C%AA%E6%9D%A5%E8%B5%B0%E5%90%91/</url>
+    <content><![CDATA[<h1 id="这里讲一下本站未来的走向和规划"><a href="#这里讲一下本站未来的走向和规划" class="headerlink" title="这里讲一下本站未来的走向和规划"></a>这里讲一下本站未来的走向和规划</h1><h2 id="关于之前"><a href="#关于之前" class="headerlink" title="关于之前"></a>关于之前</h2><p>本站是一个个人博客，主要用于记录一些生活的内容，但是因为 <del>我比较懒</del> 个人精力有限，所以更新频率不高，内容也比较零散。</p>
+<h2 id="关于未来"><a href="#关于未来" class="headerlink" title="关于未来"></a>关于未来</h2><p><strong>现在我已经转专业到计算机科学与技术专业。</strong></p>
+<p>相比于之前，现在有更多的时间专注于计算机技术方面的学习。所以目前的计划是将本站转变为一个技术博客，主要记录一些技术相关的内容。但是如果日常生活中有一些有趣的事情，也会记录在这里。</p>
+]]></content>
+      <categories>
+        <category>未来规划</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>大学生心理健康课展示(2023.12.18</title>
+    <url>/2023/12/18/%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E8%AF%BE%E5%B1%95%E7%A4%BA(2023.12.18/</url>
+    <content><![CDATA[<p>你好！欢迎来到我的博客，这篇为大学生心理健康教育的ppt展示。我，以及我们宿舍全体成员搜集资料以及创建原版ppt，ai进行美化，最后再由我进行排版，<a href="https://gamma.app/signup?r=zwx09wxpqdntpfi%E3%80%82">ai生成PPT网址(https://gamma.app/signup?r=zwx09wxpqdntpfi)</a></p>
+<p><a href="/ppt/mentalhealth/202312180.pptx" title="ppt下载">展示ppt点击下载</a></p>
+<p><a href="/ppt/mentalhealth/202312181.pptx" title="ppt下载">原版ppt点击下载</a></p>
+<p><img src="/pic/mentalhealth/202312180_01.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_02.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_03.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_04.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_05.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_06.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_07.png" alt="img"></p>
+<p><img src="/pic/mentalhealth/202312180_08.png" alt="img"></p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>PPT</tag>
+        <tag>大学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>政治小组展示(2023.10.26</title>
+    <url>/2023/10/26/%E6%94%BF%E6%B2%BB%E5%B0%8F%E7%BB%84%E5%B1%95%E7%A4%BA(10.26/</url>
+    <content><![CDATA[<p><img src="/pic/zhengzhi/1.png" alt="img"></p>
+<p><a href="%22https://www.bilibili.com/video/BV1z54y157pQ/?spm_id_from=333.337.search-card.all.click&vd_source=3e670711b1540d35ccfef2ba2ea5483b%22">此处视频不想下载点这里”https://www.bilibili.com/video/BV1z54y157pQ/?spm_id_from&#x3D;333.337.search-card.all.click&amp;vd_source&#x3D;3e670711b1540d35ccfef2ba2ea5483b”</a></p>
+<p><a href="https://url71.ctfile.com/f/47486571-964363200-a8cf56?p=5010">下载链接：“信仰，光芒万丈！”-1080P 高码率-AVC.mp4: https://url71.ctfile.com/f/47486571-964363200-a8cf56?p=5010(访问密码: 5010)</a></p>
+<p><img src="/pic/zhengzhi/2.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/3.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/4.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/5.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/6.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/7.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/8.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/9.png" alt="img"></p>
+<p><img src="/pic/zhengzhi/10.png" alt="img"></p>
+<p><a href="/ppt/zhengzhi/1.pptx" title="ppt下载">点击下载ppt</a></p>
+<p>[ai生成PPT网址：<a href="https://gamma.app/signup?r=zwx09wxpqdntpfi%5Dhttps://gamma.app/signup?r=zwx09wxpqdntpfi">https://gamma.app/signup?r=zwx09wxpqdntpfi]https://gamma.app/signup?r=zwx09wxpqdntpfi</a></p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>PPT</tag>
+        <tag>大学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物理实验创新设计中期研讨(2023.12.03</title>
+    <url>/2023/12/03/%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%E5%88%9B%E6%96%B0%E8%AE%BE%E8%AE%A1%E4%B8%AD%E6%9C%9F%E7%A0%94%E8%AE%A8(2023.12.03/</url>
+    <content><![CDATA[<p>你好！欢迎来到我的博客，这篇为物理创新实验设计中期研讨的ppt展示。由我们小组共同完成，<a href="https://gamma.app/signup?r=zwx09wxpqdntpfi%E3%80%82">ai生成PPT网址(https://gamma.app/signup?r=zwx09wxpqdntpfi)</a></p>
+<p><a href="/ppt/physics/2312030.pptx" title="ppt下载">展示ppt点击下载</a></p>
+<p><a href="/ppt/physics/2312031.pptx" title="ppt下载">原版ppt点击下载</a></p>
+<p><a href="http://hezi.space/2023/10/29/%E7%89%A9%E7%90%86%E5%88%9B%E6%96%B0%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/">上节回顾点击查看（即第一次研讨内容）</a></p>
+<p>本次研讨主要围绕声音的产生原理以及为何巨型发声板会发出向量而不寻常的声波展开（比较赶时间，而且实验器材不全，所以稍显仓促）</p>
+<p><img src="/pic/physics/2312030/2312030_01.png" alt="img"></p>
+<p>这里默认大家都知道研究课题（不知道的可以去看一下<a href="http://hezi.space/2023/10/29/%E7%89%A9%E7%90%86%E5%88%9B%E6%96%B0%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/">第一次研讨内容（点击即看）</a>）。</p>
+<p>我们决定研究先从声音切入，因为这部分相对来说会更加容易切入。</p>
+<p>所以让我先介绍一下声音的产生原理（基本所有声音的产生都如以下过程）</p>
+<p><img src="/pic/physics/2312030/2312030_02.png" alt="img"></p>
+<p>那为什么巨型发声板发出的声音不同寻常呢？众所周知，共振效应会使系统的振动幅度大幅提高，所以我们考虑了一下板材振动时的共振效应。</p>
+<p>下图为一个系统在不同输入频率和不同阻尼系数下的共振效应。</p>
+<p>让我来解释一下这张图：</p>
+<p>相信大家在中学阶段都学过共振曲线，具体表现和下图形状相似，只不过下图中最特殊的就是加入不同阻尼系数影响（即图中的 “德尔塔 &#x3D; Damping coefficient” ）。</p>
+<p>通过图表我们可以看出当阻尼系数逐渐减小时，振幅在物体固有频率等于输入频率的附近区间会明显地逐渐增大，而阻尼系数为0 且物体固有频率等于输入频率时，振幅则会趋于无穷大，也就是图表中的“Disastrous resonance when 德尔塔 &#x3D; 0 for 欧米伽A&#x2F;欧米伽0 &#x3D; 1”</p>
+<p>那我们不禁思考：巨型发声板是否可以减小阻尼，使共振的振幅更大，进而发出响亮而不同寻常的声音呢？</p>
+<p><img src="/pic/physics/2312030/2312030_03.png" alt="img"></p>
+<p>带着问题，我们设计了如下实验过程（改变变量环节ppt有误，过程应添加“改变板材的材质，厚度，大小，重复实验”）</p>
+<p><img src="/pic/physics/2312030/2312030_04.png" alt="img"></p>
+<p>但是电动活塞目前还没有到我们的手中，所以暂且用手工代替，不过这就体现了振动源的不准确性，所以我们获得的音频数据价值很低，下面是两段初步处理的音频演示，由于价值不高故只放出图片。</p>
+<p><img src="/pic/physics/2312030/2312030_05.png" alt="img"></p>
+<p>这里还有更多音频数据，同样由于价值不高故只放出图片。</p>
+<p><img src="/pic/physics/2312030/2312030_06.png" alt="img"></p>
+<p>此外，这是我们实验中遇到的问题。</p>
+<p><img src="/pic/physics/2312030/2312030_07.png" alt="img"></p>
+<p><img src="/pic/physics/2312030/2312030_08.png" alt="img"></p>
+<p>目前进度如此，后续器材到货之后，可能会把如何找到共振频率和对声波进行傅里叶变换的教程发上来，敬请期待~♥</p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>PPT</tag>
+        <tag>大学</tag>
+        <tag>物理创新实验设计</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物理创新实验设计(2023.10.29</title>
+    <url>/2023/10/29/%E7%89%A9%E7%90%86%E5%88%9B%E6%96%B0%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1(2023.10.29/</url>
+    <content><![CDATA[<p>你好！欢迎来到我的博客，这篇为物理创新实验设计中期研讨的ppt展示。由我们小组共同完成，<a href="https://gamma.app/signup?r=zwx09wxpqdntpfi%E3%80%82">ai生成PPT网址(https://gamma.app/signup?r=zwx09wxpqdntpfi)</a></p>
+<p><a href="/ppt/physics/2310290.pptx" title="ppt下载">展示ppt点击下载</a></p>
+<p><a href="/ppt/physics/2310291.pptx" title="ppt下载">原版ppt点击下载</a></p>
+<p><img src="/pic/physics/2023_01.png" alt="img"></p>
+<p><img src="/pic/physics/2023_02.png" alt="img"></p>
+<p><a href="/videos/physics/231029/official.mp4" title="视频下载">点我下载官方原视频</a></p>
+<p>不想下载的提供B站原链接<a href="https://www.bilibili.com/video/BV1aj411k728/?spm_id_from=333.880.my_history.page.click&vd_source=b43edad96a29a7009e22ae17cfbbf21a">https://www.bilibili.com/video/BV1aj411k728/?spm_id_from=333.880.my_history.page.click&amp;vd_source=b43edad96a29a7009e22ae17cfbbf21a</a></p>
+<p><img src="/pic/physics/2023_03.png" alt="img"></p>
+<p>我的视频就不放链接了♥♥♥</p>
+<p><img src="/pic/physics/2023_04.png" alt="img"></p>
+<p><img src="/pic/physics/2023_05.png" alt="img"></p>
+<p><img src="/pic/physics/2023_06.png" alt="img"></p>
+<p><img src="/pic/physics/2023_07.png" alt="img"><br><img src="/pic/physics/2023_08.png" alt="img"><br><img src="/pic/physics/2023_09.png" alt="img"><br><img src="/pic/physics/2023_10.png" alt="img"></p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>PPT</tag>
+        <tag>大学</tag>
+        <tag>物理创新实验设计</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>转计算机专业相关</title>
+    <url>/2024/05/20/%E8%BD%AC%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%9B%B8%E5%85%B3/</url>
+    <content><![CDATA[<h1 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h1><p>本博客文章仅代表作者的个人观点和经验，旨在为有意向转专业的学弟学妹提供参考意见。文中的信息和建议仅供参考，并不构成任何法律、学术或专业建议。请在做出任何决定之前，务必自行查证相关信息并考虑个人的具体情况。</p>
+<p>课程推荐仅供参考，具体情况请各位根据自身情况做出决定。</p>
+<p><strong>今年(2024)好多人要转专业，而且政策可能会变，以下仅供参考，具体情况请各位随机应变。</strong></p>
+<p><strong>如果下列超链接中，有你打不开的，请谨慎选择是否转专业。</strong></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>大晚上睡不着，写一下转专业这件事。我是一个物理系的学生，志愿填报失误加上分数差一点，所以没有被计算机录取。可是当转专业报名系统开放的那一天，我发现我还是忘不了计算机。</p>
+<h1 id="转专业的原因以及流程"><a href="#转专业的原因以及流程" class="headerlink" title="转专业的原因以及流程"></a>转专业的原因以及流程</h1><h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>如上所述，我还是忘不了计算机。<strong>各位转专业之前想好是否真的热爱或者有理由转。</strong></p>
+<h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><p>转计算机就是初筛，机考，面试。</p>
+<p>初筛的话，前几年只看高数的加权，而24年除了高数还有总加权，所以大一还是要好好学一下，最起码总加权能到85左右比较保险。</p>
+<p>机考就是会有一些编程题，你做题，老师打分，然后及格线上的会去面试。</p>
+<p>面试在近年来的比重逐渐降低，做一做准备，别太过分就好。</p>
+<h3 id="前置任务"><a href="#前置任务" class="headerlink" title="前置任务"></a>前置任务</h3><p>高数看<a href="https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITmaths/">MIT Calculus Course(18.01和18.02)</a>，就是对应的微积分课程便好。学校考试的范围有超出，可以去<a href="https://space.bilibili.com/1035929235">B站看一高数</a>速通一下，然后做做往年的高数真题，基本也差不多了。</p>
+<p>专业课什么的自己去学，这里不多赘述。</p>
+<h3 id="机考准备"><a href="#机考准备" class="headerlink" title="机考准备"></a>机考准备</h3><p>首先感谢学长整理的的<a href="https://github.com/CuzWeAre/CUMT_Program-Test/">中国矿业大学转计算机学院机考试题 </a>,这里有往年的考试题和学校以及学院的相关政策，可以让大家先有一个充分的了解。</p>
+<p>我们可以看到。22年和23年的试题主要还是在考察语法层面，还比较简单。但是24年的试题就有点难度了，考察的是一些基础的数据结构和算法，比如说栈、队列、链表、树等等。这就要求我们要好好学习了。</p>
+<p>语言方面可以使用C、C++或者Python。</p>
+<p>建议之前有基础的就可以继续自己的语言。</p>
+<p>如果你三种语言都没学过，可以从python(推荐<a href="https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/">CS61A: Structure and Interpretation of Computer Programs</a>)开始。因为你大一下学期学校会开python相关课程，这样会轻松一点。（测控专业的同学大一下学期会学c++，所以你从c++开始也行）</p>
+<p>刷题的话，可以去<a href="https://leetcode-cn.com/">LeetCode</a>、<a href="https://www.luogu.com.cn/">洛谷</a>、<a href="https://www.acwing.com/problem/">AcWing在线题库</a>刷一刷，这里有很多题目，可以帮助你提高编程能力。</p>
+<h1 id="考试注意"><a href="#考试注意" class="headerlink" title="考试注意"></a>考试注意</h1><h2 id="注意时间"><a href="#注意时间" class="headerlink" title="注意时间"></a>注意时间</h2><p>考试的时候要<strong>注意时间</strong>，不要卡在一道题上，可以先做简单的题目，然后再做难的题目。这样可以保证分数。能多一分是一分，已经到机考这一步了，说不定保证几个简单题就过了。</p>
+<h2 id="注意细节"><a href="#注意细节" class="headerlink" title="注意细节"></a>注意细节</h2><p>另外，虽然24年考题难度有所增加，但是我们观察到最终录取人数并没有明显减少，这说明了老师们改卷的时候还是有一定的宽容度，把能写的都写上去，不要放弃任何一分，还是有机会的。比如要求用冒泡排序完成，那我们就先写一个冒泡排序的函数，然后再调用这个函数，这样即使结果不对，也可以得到一些分数。能多一分是一分，已经到机考这一步了，说不定多写几个函数就过了。</p>
+<h2 id="注意注释"><a href="#注意注释" class="headerlink" title="注意注释"></a>注意注释</h2><p>写注释是程序员的美德，转专业的人们总会说注释会给你加分，但也有人说不会。总归抱着宁可信其有的心态，还是写一下吧，毕竟写不完题也不是因为注释。能多一分是一分，已经到机考这一步了，说不定多写几个注释就过了。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>看到这里，我想你已经对这个流程有了大概的了解，可以去看看计算机的培养方案。如果你已经下定决心的话，那么现在就去做吧，先把前几年的真题做了，不懂可以Google一下或者问Copilot，再去看看<a href="https://csdiy.wiki/">CS自学指南</a>，加油！</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;祝你成功！&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="相关QQ群链接"><a href="#相关QQ群链接" class="headerlink" title="相关QQ群链接"></a>相关QQ群链接</h2><p>点击链接加入群聊<a href="https://qm.qq.com/q/uRLgPh9bRm">【矿大转专业交流群(定期清低活,误踢请重新申请）】：831110233</a></p>
+<p>点击链接加入群聊<a href="https://qm.qq.com/q/37RW6UU0ta">【CUMT转计算机交流群】：866766652</a></p>
+<p>点击链接加入群聊<a href="https://qm.qq.com/q/DxUTp9KJdC">【中国矿业大学2024级新生群(转群版)】：894199748</a></p>
+<p>点击链接加入群聊<a href="https://qm.qq.com/q/NwqYU2YMUK">【计算机资源分享群】：916483545</a></p>
+<h2 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><ul>
+<li><p>问：转专业的时间点是什么时候？</p>
+</li>
+<li><p>答：一般是在大一下学期五月初，具体时间以学校通知为准。如果没转过去的话，还有一次机会是大二下学期。</p>
+</li>
+<li><p>问：大二转专业和大一转专业有什么区别？</p>
+</li>
+<li><p>答：大二转专业的话，可能修不完计算机的专业课，所以一般会降级。最好大一就成功。</p>
+</li>
+<li><p>问：什么时候开始学习计算机专业的专业课程呢？</p>
+</li>
+<li><p>答：大二开始学习计算机专业课。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>未来规划</category>
+      </categories>
+      <tags>
+        <tag>转专业</tag>
+      </tags>
+  </entry>
+</search>
