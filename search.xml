@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>使用GPT的作文修改流程</title>
+    <url>/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文为借用大模型进行对作文修改的一些方法。此文所写内容在当今来看可能已经过时，请仅供参考。</p>
+<h2 id="重要提醒："><a href="#重要提醒：" class="headerlink" title="重要提醒："></a><strong>重要提醒：</strong></h2><p>！！！在使用AI修改之前，请确保你对英语作文的写作和结构有基本的认识。AI只是作为修改工具，你应该先自行完成作文草稿，然后再用GPT进行修改。这样可以确保修改的方向与你的思路一致（同时也能提高AI的识别准确率）。</p>
+<p>不要盲目听信AI。如果你觉得自己的作文有亮点被修改了，请询问GPT为什么进行了修改，如果你认为修改不妥，可以改回来。毕竟这是你的作文，而不是GPT的。</p>
+<p>不要完全依赖AI的修改建议，如果你认为某些修改不符合您的意愿或风格，可以自行调整。要记住，虽然大型语言模型可以提供有价值的建议，但最终的决定权在于你自己。</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a><strong>注意事项：</strong></h2><ul>
+<li><p><strong>使用单一窗口进行修改</strong>：在整个修改过程中，请尽量在一个窗口内进行，这样GPT可以记住之前的对话和上下文。如果在修改过程中频繁切换窗口，可能会影响GPT的理解和回答。</p>
+</li>
+<li><p><strong>GPT和批改网的AI有时候会产生矛盾</strong>：这并不重要，重要的是通过修改提升写作水平，取得理想的成绩。</p>
+</li>
+<li><p><strong>英文聊天会更准确</strong>：尽量使用英文进行交流，这样GPT的回答会更加贴合文章。不过，如果更习惯使用中文也可以。</p>
+</li>
+</ul>
+<h2 id="修改流程："><a href="#修改流程：" class="headerlink" title="修改流程："></a>修改流程：</h2><p><strong>（以下是修改流程的具体步骤，仅供参考，具体使用的时候就把对方当成一个人，想问什么问什么，想怎么说怎么说。注意每次修改的时候都要加入自己的想法，不懂的地方就要问，这又不是真人，只有你自己知道跟他说了什么：）</strong></p>
+<ul>
+<li><p><strong>1.发送提示词(直接复制粘贴，<a href="https://github.com/wikieden/awesome-chatgpt-prompts">内容来自Github</a>)</strong>:使用以下提示词来启动GPT，提醒它你需要进行作文修改。提示词：</p>
+<blockquote>
+<p>I want you to act as an AI writing tutor. I will provide you with a student who needs help improving their writing and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback on how they can improve their composition. You should also use your rhetorical knowledge and experience about effective writing techniques in order to suggest ways that the student can better express their thoughts and ideas in written form.</p>
+</blockquote>
+</li>
+<li><p><strong>2.发送作文题目和内容</strong>:将作文题目和内容发送给GPT，让它检查语法和词汇错误，并给出修改建议。</p>
+</li>
+<li><p><strong>3.逐段检查</strong>:逐段发送作文给GPT，让它修正语法、词汇错误，并优化句式和段落结构。在每一段修改后，仔细检查并根据需要调整。</p>
+</li>
+<li><p><strong>4.全文检查：</strong>:当每个段落都修改完毕后，将整篇作文发送给GPT，检查全文的结构和段落间的衔接问题，并进行必要的修改。</p>
+</li>
+<li><p><strong>5.请GPT自行写一篇：</strong>:最后，可以让GPT自己写一篇文章作为参考，当作范文学习。记得在过程中多与GPT进行互动，询问原因或提出更改意见。</p>
+</li>
+</ul>
+<h2 id="其他资料"><a href="#其他资料" class="headerlink" title="其他资料:"></a>其他资料:</h2><p>以下是另外一个详细的教程，供参考：<a href="https://blog.csdn.net/He_r_o/article/details/129050606?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22129050606%22,%22source%22:%22He_r_o%22%7D&fromshare=blogdetail">教程链接</a></p>
+<p>祝你修改顺利！</p>
+]]></content>
+      <categories>
+        <category>学习生活</category>
+      </categories>
+      <tags>
+        <tag>GPT</tag>
+        <tag>作文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于OpenWrt路由器及哆点Drcom校园网WEB自动登录</title>
     <url>/2024/06/03/%E5%85%B3%E4%BA%8Eopenwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%8A%E5%93%86%E7%82%B9Drcom%E6%A0%A1%E5%9B%AD%E7%BD%91WEB%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近买了新华三NX30Pro路由器(下文简称”华三”)，我的需求就是千兆、能刷OpenWrt进行二次开发，WIFI6这些。而华三满足这些，且价格合适，所以就入手了。这里记录一下路由器的一些配置和使用。</p>
