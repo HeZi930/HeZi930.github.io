@@ -1,0 +1,307 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>使用GPT的作文修改流程 | HeZi</title><meta name="author" content="HeZi"><meta name="copyright" content="HeZi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="前言本文为借用大模型进行对作文修改的一些方法。此文所写内容在当今来看可能已经过时，请仅供参考。 重要提醒：！！！在使用AI修改之前，请确保你对英语作文的写作和结构有基本的认识。AI只是作为修改工具，你应该先自行完成作文草稿，然后再用GPT进行修改。这样可以确保修改的方向与你的思路一致（同时也能提高AI的识别准确率）。 不要盲目听信AI。如果你觉得自己的作文有亮点被修改了，请询问GPT为什么进行了修">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用GPT的作文修改流程">
+<meta property="og:url" content="https://hezi930.github.io/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/index.html">
+<meta property="og:site_name" content="HeZi">
+<meta property="og:description" content="前言本文为借用大模型进行对作文修改的一些方法。此文所写内容在当今来看可能已经过时，请仅供参考。 重要提醒：！！！在使用AI修改之前，请确保你对英语作文的写作和结构有基本的认识。AI只是作为修改工具，你应该先自行完成作文草稿，然后再用GPT进行修改。这样可以确保修改的方向与你的思路一致（同时也能提高AI的识别准确率）。 不要盲目听信AI。如果你觉得自己的作文有亮点被修改了，请询问GPT为什么进行了修">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/142383180?v=4">
+<meta property="article:published_time" content="2024-03-22T05:33:01.000Z">
+<meta property="article:modified_time" content="2024-11-08T00:34:16.230Z">
+<meta property="article:author" content="HeZi">
+<meta property="article:tag" content="GPT">
+<meta property="article:tag" content="作文">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/142383180?v=4"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://hezi930.github.io/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+          
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '使用GPT的作文修改流程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://avatars.githubusercontent.com/u/142383180?v=4" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">HeZi</span></a><a class="nav-page-title" href="/"><span class="site-name">使用GPT的作文修改流程</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">使用GPT的作文修改流程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-22T05:33:01.000Z" title="发表于 2024-03-22 13:33:01">2024-03-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-08T00:34:16.230Z" title="更新于 2024-11-08 08:34:16">2024-11-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%94%9F%E6%B4%BB/">学习生活</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">873</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文为借用大模型进行对作文修改的一些方法。此文所写内容在当今来看可能已经过时，请仅供参考。</p>
+<h2 id="重要提醒："><a href="#重要提醒：" class="headerlink" title="重要提醒："></a><strong>重要提醒：</strong></h2><p>！！！在使用AI修改之前，请确保你对英语作文的写作和结构有基本的认识。AI只是作为修改工具，你应该先自行完成作文草稿，然后再用GPT进行修改。这样可以确保修改的方向与你的思路一致（同时也能提高AI的识别准确率）。</p>
+<p>不要盲目听信AI。如果你觉得自己的作文有亮点被修改了，请询问GPT为什么进行了修改，如果你认为修改不妥，可以改回来。毕竟这是你的作文，而不是GPT的。</p>
+<p>不要完全依赖AI的修改建议，如果你认为某些修改不符合您的意愿或风格，可以自行调整。要记住，虽然大型语言模型可以提供有价值的建议，但最终的决定权在于你自己。</p>
+<h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a><strong>注意事项：</strong></h2><ul>
+<li><p><strong>使用单一窗口进行修改</strong>：在整个修改过程中，请尽量在一个窗口内进行，这样GPT可以记住之前的对话和上下文。如果在修改过程中频繁切换窗口，可能会影响GPT的理解和回答。</p>
+</li>
+<li><p><strong>GPT和批改网的AI有时候会产生矛盾</strong>：这并不重要，重要的是通过修改提升写作水平，取得理想的成绩。</p>
+</li>
+<li><p><strong>英文聊天会更准确</strong>：尽量使用英文进行交流，这样GPT的回答会更加贴合文章。不过，如果更习惯使用中文也可以。</p>
+</li>
+</ul>
+<h2 id="修改流程："><a href="#修改流程：" class="headerlink" title="修改流程："></a>修改流程：</h2><p><strong>（以下是修改流程的具体步骤，仅供参考，具体使用的时候就把对方当成一个人，想问什么问什么，想怎么说怎么说。注意每次修改的时候都要加入自己的想法，不懂的地方就要问，这又不是真人，只有你自己知道跟他说了什么：）</strong></p>
+<ul>
+<li><p><strong>1.发送提示词(直接复制粘贴，<a target="_blank" rel="noopener" href="https://github.com/wikieden/awesome-chatgpt-prompts">内容来自Github</a>)</strong>:使用以下提示词来启动GPT，提醒它你需要进行作文修改。提示词：</p>
+<blockquote>
+<p>I want you to act as an AI writing tutor. I will provide you with a student who needs help improving their writing and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback on how they can improve their composition. You should also use your rhetorical knowledge and experience about effective writing techniques in order to suggest ways that the student can better express their thoughts and ideas in written form.</p>
+</blockquote>
+</li>
+<li><p><strong>2.发送作文题目和内容</strong>:将作文题目和内容发送给GPT，让它检查语法和词汇错误，并给出修改建议。</p>
+</li>
+<li><p><strong>3.逐段检查</strong>:逐段发送作文给GPT，让它修正语法、词汇错误，并优化句式和段落结构。在每一段修改后，仔细检查并根据需要调整。</p>
+</li>
+<li><p><strong>4.全文检查：</strong>:当每个段落都修改完毕后，将整篇作文发送给GPT，检查全文的结构和段落间的衔接问题，并进行必要的修改。</p>
+</li>
+<li><p><strong>5.请GPT自行写一篇：</strong>:最后，可以让GPT自己写一篇文章作为参考，当作范文学习。记得在过程中多与GPT进行互动，询问原因或提出更改意见。</p>
+</li>
+</ul>
+<h2 id="其他资料"><a href="#其他资料" class="headerlink" title="其他资料:"></a>其他资料:</h2><p>以下是另外一个详细的教程，供参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/He_r_o/article/details/129050606?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22129050606%22,%22source%22:%22He_r_o%22%7D&fromshare=blogdetail">教程链接</a></p>
+<p>祝你修改顺利！</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://hezi930.github.io">HeZi</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://hezi930.github.io/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/">https://hezi930.github.io/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://hezi930.github.io" target="_blank">HeZi</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/GPT/">GPT</a><a class="post-meta__tags" href="/tags/%E4%BD%9C%E6%96%87/">作文</a></div><div class="post-share"><div class="social-share" data-image="https://avatars.githubusercontent.com/u/142383180?v=4" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2024/05/12/%E5%85%B3%E4%BA%8E%E6%9C%AA%E6%9D%A5%E8%B5%B0%E5%90%91/" title="关于未来走向"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">关于未来走向</div></div><div class="info-2"><div class="info-item-1">这里讲一下本站未来的走向和规划关于之前本站是一个个人博客，主要用于记录一些生活的内容，但是因为 我比较懒 个人精力有限，所以更新频率不高，内容也比较零散。 由于个人隐私原因，之前博客全部删除，现在重新开始。 关于未来现在我已经转专业到计算机科学与技术专业。 相比于之前，现在有更多的时间专注于计算机技术方面的学习。所以目前的计划是将本站转变为一个技术博客，主要记录一些技术相关的内容。但是如果日常生活中有一些有趣的事情，也会记录在这里。 </div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/142383180?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">HeZi</div><div class="author-info-description">关注Github，一起CS</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/hezi930"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E8%A6%81%E6%8F%90%E9%86%92%EF%BC%9A"><span class="toc-number">1.1.</span> <span class="toc-text">重要提醒：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%EF%BC%9A"><span class="toc-number">1.2.</span> <span class="toc-text">注意事项：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B%EF%BC%9A"><span class="toc-number">1.3.</span> <span class="toc-text">修改流程：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99"><span class="toc-number">1.4.</span> <span class="toc-text">其他资料:</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/06/03/%E5%85%B3%E4%BA%8Eopenwrt%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%8A%E5%93%86%E7%82%B9Drcom%E6%A0%A1%E5%9B%AD%E7%BD%91WEB%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95/" title="关于OpenWrt路由器及哆点Drcom校园网WEB自动登录">关于OpenWrt路由器及哆点Drcom校园网WEB自动登录</a><time datetime="2024-06-02T16:41:06.000Z" title="发表于 2024-06-03 00:41:06">2024-06-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/20/%E8%BD%AC%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E7%9B%B8%E5%85%B3/" title="转计算机专业相关">转计算机专业相关</a><time datetime="2024-05-19T17:45:58.000Z" title="发表于 2024-05-20 01:45:58">2024-05-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/12/%E5%85%B3%E4%BA%8E%E6%9C%AA%E6%9D%A5%E8%B5%B0%E5%90%91/" title="关于未来走向">关于未来走向</a><time datetime="2024-05-12T14:44:10.000Z" title="发表于 2024-05-12 22:44:10">2024-05-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/22/%E4%BD%BF%E7%94%A8GPT%E7%9A%84%E4%BD%9C%E6%96%87%E4%BF%AE%E6%94%B9%E6%B5%81%E7%A8%8B/" title="使用GPT的作文修改流程">使用GPT的作文修改流程</a><time datetime="2024-03-22T05:33:01.000Z" title="发表于 2024-03-22 13:33:01">2024-03-22</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By HeZi</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>(() => {
+  const panguFn = () => {
+    if (typeof pangu === 'object') pangu.autoSpacingPage()
+    else {
+      btf.getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+        .then(() => {
+          pangu.autoSpacingPage()
+        })
+    }
+  }
+
+  const panguInit = () => {
+    if (false){
+      GLOBAL_CONFIG_SITE.isPost && panguFn()
+    } else {
+      panguFn()
+    }
+  }
+
+  btf.addGlobalFn('pjaxComplete', panguInit, 'pangu')
+  document.addEventListener('DOMContentLoaded', panguInit)
+})()</script><div class="js-pjax"><script>(() => {
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = `%%{init:{ 'theme':'${theme}'}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = '0975b102a0fbc49f80e205bb3438fc84';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '117，34';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
